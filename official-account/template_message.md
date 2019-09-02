@@ -46,8 +46,9 @@ $app->template_message->send([
                 'pagepath' => 'pages/xxx',
         ],
         'data' => [
-            'key1' => 'VALUE',
-            'key2' => 'VALUE2',
+            'first' => 'TITLE',
+            'keyword1' => 'VALUE',
+            'keyword2' => 'VALUE2',
             ...
         ],
     ]);
